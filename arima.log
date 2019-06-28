@@ -1,0 +1,44 @@
+[1] "Starting process at : 2019-06-27 23:14:15"
+[1] "Starting processing from date : 2019-06-27"
+Error in install.packages : Updating loaded packages
+-/                                                                                                         # A tibble: 6 x 4
+  SKU     ISO_Week Sales Season
+  <chr>   <chr>    <chr> <chr> 
+1 colgate 2018-01  0     WINTER
+2 colgate 2018-02  0     WINTER
+3 colgate 2018-03  0     WINTER
+4 colgate 2018-04  6988  WINTER
+5 colgate 2018-04  6988  WINTER
+6 colgate 2018-05  6743  WINTER
+# A tibble: 6 x 4
+  SKU     ISO_Week Sales Season
+  <chr>   <chr>    <chr> <chr> 
+1 closeup 2018-47  14510 AUTUMN
+2 closeup 2018-48  12927 AUTUMN
+3 closeup 2018-49  11595 WINTER
+4 closeup 2018-50  10061 WINTER
+5 closeup 2018-51  10859 WINTER
+6 closeup 2018-52  13093 WINTER
+[1] 150   4
+[1] 4
+[1] "SKU"      "ISO_Week" "Sales"    "Season"  
+$SKU
+[1] "character"
+
+$ISO_Week
+[1] "character"
+
+$Sales
+[1] "character"
+
+$Season
+[1] "character"
+
+Classes ‘tbl_df’, ‘tbl’ and 'data.frame':	150 obs. of  4 variables:
+ $ SKU     : chr  "colgate" "colgate" "colgate" "colgate" ...
+ $ ISO_Week: chr  "2018-01" "2018-02" "2018-03" "2018-04" ...
+ $ Sales   : chr  "0" "0" "0" "6988" ...
+ $ Season  : chr  "WINTER" "WINTER" "WINTER" "WINTER" ...
+     SKU ISO_Week    Sales   Season 
+       0        0        0        0 
+[1] 3
